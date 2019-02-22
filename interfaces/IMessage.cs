@@ -7,7 +7,7 @@ namespace MessagingExampleApp.Interfaces
     }
     public interface IMessage<T>
     {
-        MessageType Type { get; set; }
-        T Item { get; set; }
+        MessageType Type { get; }
+        T Item { get; }
     }
 }

@@ -1,7 +1,9 @@
+using System.Threading.Tasks;
+
 namespace MessagingExampleApp.Interfaces
 {
-    public interface IQueueService
+    public interface IQueueService<T>
     {
-        bool Send(IMessage message);
+        bool Send(IMessage<T> message);
     }
 }

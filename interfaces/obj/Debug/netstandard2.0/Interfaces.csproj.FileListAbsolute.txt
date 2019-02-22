@@ -1,0 +1,9 @@
+D:\src\Playground\MessagingExampleApp\interfaces\obj\Debug\netstandard2.0\Interfaces.csprojAssemblyReference.cache
+D:\src\Playground\MessagingExampleApp\interfaces\obj\Debug\netstandard2.0\Interfaces.csproj.CoreCompileInputs.cache
+D:\src\Playground\MessagingExampleApp\interfaces\obj\Debug\netstandard2.0\Interfaces.AssemblyInfoInputs.cache
+D:\src\Playground\MessagingExampleApp\interfaces\obj\Debug\netstandard2.0\Interfaces.AssemblyInfo.cs
+D:\src\Playground\MessagingExampleApp\interfaces\bin\Debug\netstandard2.0\Interfaces.deps.json
+D:\src\Playground\MessagingExampleApp\interfaces\bin\Debug\netstandard2.0\Interfaces.dll
+D:\src\Playground\MessagingExampleApp\interfaces\bin\Debug\netstandard2.0\Interfaces.pdb
+D:\src\Playground\MessagingExampleApp\interfaces\obj\Debug\netstandard2.0\Interfaces.dll
+D:\src\Playground\MessagingExampleApp\interfaces\obj\Debug\netstandard2.0\Interfaces.pdb

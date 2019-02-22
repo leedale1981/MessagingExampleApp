@@ -179,28 +179,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/leedale/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\leeda\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leedale/Documents/src/MessagingExampleApp/interfaces/interfaces.csproj",
-      "projectName": "interfaces",
-      "projectPath": "/Users/leedale/Documents/src/MessagingExampleApp/interfaces/interfaces.csproj",
-      "packagesPath": "/Users/leedale/.nuget/packages/",
-      "outputPath": "/Users/leedale/Documents/src/MessagingExampleApp/interfaces/obj/",
+      "projectUniqueName": "D:\\src\\Playground\\MessagingExampleApp\\interfaces\\Interfaces.csproj",
+      "projectName": "Interfaces",
+      "projectPath": "D:\\src\\Playground\\MessagingExampleApp\\interfaces\\Interfaces.csproj",
+      "packagesPath": "C:\\Users\\leeda\\.nuget\\packages\\",
+      "outputPath": "D:\\src\\Playground\\MessagingExampleApp\\interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/leedale/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\leeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\domain\Domain.csproj" />
+    <ProjectReference Include="..\..\interfaces\Interfaces.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>MessagingExampleApp</RootNamespace>
+  </PropertyGroup>
+
+</Project>

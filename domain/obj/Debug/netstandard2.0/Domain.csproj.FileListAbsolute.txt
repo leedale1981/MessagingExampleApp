@@ -1,0 +1,12 @@
+D:\src\Playground\MessagingExampleApp\domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+D:\src\Playground\MessagingExampleApp\domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+D:\src\Playground\MessagingExampleApp\domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+D:\src\Playground\MessagingExampleApp\domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+D:\src\Playground\MessagingExampleApp\domain\bin\Debug\netstandard2.0\Domain.deps.json
+D:\src\Playground\MessagingExampleApp\domain\bin\Debug\netstandard2.0\Domain.dll
+D:\src\Playground\MessagingExampleApp\domain\bin\Debug\netstandard2.0\Domain.pdb
+D:\src\Playground\MessagingExampleApp\domain\bin\Debug\netstandard2.0\Interfaces.dll
+D:\src\Playground\MessagingExampleApp\domain\bin\Debug\netstandard2.0\Interfaces.pdb
+D:\src\Playground\MessagingExampleApp\domain\obj\Debug\netstandard2.0\Domain.csproj.CopyComplete
+D:\src\Playground\MessagingExampleApp\domain\obj\Debug\netstandard2.0\Domain.dll
+D:\src\Playground\MessagingExampleApp\domain\obj\Debug\netstandard2.0\Domain.pdb

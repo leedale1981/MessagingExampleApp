@@ -25,6 +25,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interfaces.dll": {}
+        }
       }
     }
   },
@@ -171,41 +194,62 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../../domain/Domain.csproj",
+      "msbuildProject": "../../domain/Domain.csproj"
+    },
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../../interfaces/Interfaces.csproj",
+      "msbuildProject": "../../interfaces/Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Domain >= 1.0.0",
+      "Interfaces >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "/Users/leedale/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\leeda\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leedale/Documents/src/MessagingExampleApp/services/order-messaging-service/order-messaging-service.csproj",
-      "projectName": "order-messaging-service",
-      "projectPath": "/Users/leedale/Documents/src/MessagingExampleApp/services/order-messaging-service/order-messaging-service.csproj",
-      "packagesPath": "/Users/leedale/.nuget/packages/",
-      "outputPath": "/Users/leedale/Documents/src/MessagingExampleApp/services/order-messaging-service/obj/",
+      "projectUniqueName": "D:\\src\\Playground\\MessagingExampleApp\\services\\order-messaging-service\\OrderMessagingService.csproj",
+      "projectName": "OrderMessagingService",
+      "projectPath": "D:\\src\\Playground\\MessagingExampleApp\\services\\order-messaging-service\\OrderMessagingService.csproj",
+      "packagesPath": "C:\\Users\\leeda\\.nuget\\packages\\",
+      "outputPath": "D:\\src\\Playground\\MessagingExampleApp\\services\\order-messaging-service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/leedale/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\leeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\src\\Playground\\MessagingExampleApp\\domain\\Domain.csproj": {
+              "projectPath": "D:\\src\\Playground\\MessagingExampleApp\\domain\\Domain.csproj"
+            },
+            "D:\\src\\Playground\\MessagingExampleApp\\interfaces\\Interfaces.csproj": {
+              "projectPath": "D:\\src\\Playground\\MessagingExampleApp\\interfaces\\Interfaces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
