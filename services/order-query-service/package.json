@@ -1,0 +1,20 @@
+{
+    "name": "messaging-example-app-query-service",
+    "version": "0.0.1",
+    "description": "MessagingExampleApp Query Service",
+    "main": "app.js",
+    "author": {
+        "name": "Lee Dale"
+    },
+    "scripts": {
+        "pretest": "eslint --ignore-path .gitignore .",
+        "start": "node app.js"
+    },
+    "devDependencies": {
+        "eslint": "^5.14.1",
+        "eslint-config-node": "^4.0.0"
+    },
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}
